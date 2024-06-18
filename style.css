@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #171a28;
+    font-family: "M PLUS 1", sans-serif;
+}
+/* section1 */
+.section1{
+    background-image: url("images/section1.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+/* page first */
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/* main logo style */
+.logo>svg{
+    height: 12px;
+    width: 180px;
+    color: #171a28;
+}
+header a{
+    color: #171a28;
+    padding: 5px;
+}
+header nav a{
+    text-decoration: none;
+}
+/* on hover background will change */
+header nav a:hover{
+    background-color: lightgray;
+}
+/* nav centre items */
+header nav.centre{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* nav right items */
+header nav.right{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 50px;
+}
+/* right items style /// */
+.icon>svg{ 
+    height: 25px;
+    width: 25px;
+}
+.desktop{
+    display: none;
+}
+.nav-menu-btn{
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: aliceblue;
+}
+/* menu button comes on 1200px */
+@media(min-width: 1200px){
+    .desktop{
+        display: initial;
+    }
+    .nav-menu-btn{
+        display: none;
+    }
+}
+.section-btn{
+    margin-top: 300px;
+}
+@media(max-width: 991px){
+    .section-btn{
+        margin-top: 250px;
+    }
+}
+.section2{
+    background-image: url("images/section2.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.section3{
+    background-image: url("images/section3.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.section4{
+    background-image: url("images/section4.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.section5{
+    background-image: url("images/section5.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.section-btn-exeption{
+    margin-top: 400px;
+}
+@media(max-width: 991px){
+    .section-btn-exeption{
+        margin-top: 350px;
+    }
+}
+.section6{
+    background-image: url("images/section6.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.section7{
+    background-image: url("images/section7.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.section8{
+    background-image: url("images/section8.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+/* footer */
+.section9{
+    background-image: url("images/section9.avif");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+.last{
+    background-color: black;
+}
+p{
+    font-size: 12px;
+}
+footer{
+    background-color: black;
+    font-size: 12px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.list>li{
+    cursor: pointer;
+}
+/* if footer is less than 600px then */
+@media(max-width: 600px) {
+    .list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
