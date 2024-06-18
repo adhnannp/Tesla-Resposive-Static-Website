@@ -80,11 +80,11 @@ header nav.right{
     }
 }
 .section-btn{
-    margin-top: 300px;
+    margin-top: 350px;
 }
 @media(max-width: 991px){
     .section-btn{
-        margin-top: 250px;
+        margin-top: 300px;
     }
 }
 .section2{
@@ -116,11 +116,11 @@ header nav.right{
     overflow: hidden;
 }
 .section-btn-exeption{
-    margin-top: 400px;
+    margin-top: 450px;
 }
 @media(max-width: 991px){
     .section-btn-exeption{
-        margin-top: 350px;
+        margin-top: 400px;
     }
 }
 .section6{
